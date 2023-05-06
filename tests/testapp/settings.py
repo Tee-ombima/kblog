@@ -11,7 +11,7 @@ load_dotenv()
 WAGTAIL_SITE_NAME = "Puput blog"
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", get_random_secret_key())
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS=['*']
 DATABASE_URL = os.getenv("DATABASE_URL")
 # ALLOWED_HOSTS =['127.0.0.1','wfspotlight.herokuapp.com','localhost','www.spotlightkenya.club','spotlightkenya.club']
