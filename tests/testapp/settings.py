@@ -24,6 +24,9 @@ INSTALLED_APPS = (
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "storages",
+    "wf_pages",
+    "documents",
+    "streams",
 )
 INSTALLED_APPS += PUPUT_APPS
 

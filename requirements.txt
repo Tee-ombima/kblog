@@ -1,6 +1,7 @@
 anyascii==0.3.2
 asgiref==3.6.0
 asttokens==2.2.1
+atomicwrites==1.4.1
 attrs==22.2.0
 backcall==0.2.0
 beautifulsoup4==4.11.2
@@ -8,6 +9,7 @@ boto3==1.26.111
 botocore==1.29.111
 certifi==2022.12.7
 charset-normalizer==2.1.1
+colorama==0.4.6
 colorful==0.5.5
 decorator==5.1.1
 distlib==0.3.6
@@ -38,6 +40,7 @@ jmespath==1.0.1
 l18n==2021.3
 matplotlib-inline==0.1.6
 model-bakery==1.5.0
+mysqlclient==2.1.1
 openpyxl==3.1.2
 packaging==23.0
 parso==0.8.3
@@ -70,9 +73,12 @@ tomli==2.0.1
 tox==3.27.1
 traitlets==5.9.0
 typing_extensions==4.5.0
+tzdata==2023.3
 urllib3==1.26.15
 virtualenv==20.21.0
 wagtail==4.2.2
+wagtail-color-panel==1.4.1
+wagtailmedia==0.14.1
 wcwidth==0.2.6
 webencodings==0.5.1
 Willow==1.4.1
